@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+      prefWidth="300.0" styleClass="bodybg" stylesheets="@../background/style_login.css"
+      xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.PreLoginControllers.StartMenuController">
+   <Button layoutX="72.0" layoutY="171.0" mnemonicParsing="false" onAction="#onLoginButtonPressed" prefHeight="69.0"
+           prefWidth="157.0" text="Login"/>
+   <Button layoutX="72.0" layoutY="266.0" mnemonicParsing="false" onAction="#onRegisterButtonPressed" prefHeight="69.0"
+           prefWidth="157.0" text="Register"/>
+   <Button layoutX="72.0" layoutY="468.0" mnemonicParsing="false" onAction="#onHelpButtonPressed" prefHeight="69.0"
+           prefWidth="157.0" text="Help"/>
+</Pane>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>My Food Manager Map</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    <script src="MapHandler.js"></script>
+
+    <style>
+		html, body {
+			height: 98%;
+			margin: 0;
+		}
+	</style>
+
+    <style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
+</head>
+<body>
+<div id="inputBox" style="display:none;" >
+<b>Store Name: </b>
+<label for="storesNames"></label><select name="storesNames" id="storesNames"></select>
+    <button onclick="saveBtn()">Save</button>
+</div>
+
+
+<div id='map'></div>
+
+
+<script>
+	const map = L.map('map', {
+	doubleClickZoom: false
+	}).fitWorld();
+
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(map);
+    let mapHandler = new MapHandler(map);
+
+    function onClick(e) {
+        mapHandler.putTempMarker(e);
+    }
+    function saveBtn() {
+        mapHandler.savedMarker();
+    }
+
+    map.on('click', onClick);
+</script>
+
+
+
+</body>
+</html>

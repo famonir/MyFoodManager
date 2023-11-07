@@ -1,0 +1,23 @@
+{
+  "name": "Fried Rice Chicken",
+  "peopleAmount": 4,
+  "dishType": "Dinner",
+  "description": "Cook the rice, and put the chicken in the oven. Then put the rice in a pan with olive oil.",
+  "dietInfos": "",
+  "products": {
+    "Pasta": 600,
+    "Cream": 400,
+    "Olive Oil": 8,
+    "Cheese": 40,
+    "Truffle": 50,
+    "Parmigiano": 30,
+    "Ketchup": 60,
+    "Pancakes": 5,
+    "Sugar": 10,
+    "Lemon": 2,
+    "Tomato": 4,
+    "Mozarella": 400,
+    "Rice": 400,
+    "Chicken": 200
+  }
+}

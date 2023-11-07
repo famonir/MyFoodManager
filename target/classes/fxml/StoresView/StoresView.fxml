@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" styleClass="bodybg" stylesheets="@../background/style_800_1200.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StoreControllers.StoreController">
+   <ListView fx:id="storesNamesListView" layoutX="290.0" layoutY="183.0" onMouseClicked="#selectStore" prefHeight="575.0" prefWidth="288.0" />
+   <TextField fx:id="storeNameSearchBar" layoutX="290.0" layoutY="142.0" onKeyReleased="#searchStores" prefHeight="25.0" prefWidth="288.0" promptText="Search..." />
+   <Button layoutX="290.0" layoutY="86.0" mnemonicParsing="false" onAction="#addNewStore" prefHeight="46.0" prefWidth="109.0" text="New Store" />
+   <ListView fx:id="storesProductsListView" layoutX="619.0" layoutY="183.0" prefHeight="575.0" prefWidth="532.0" />
+   <Button layoutX="619.0" layoutY="86.0" mnemonicParsing="false" onAction="#addNewProduct" prefHeight="46.0" prefWidth="109.0" text="New Product" />
+   <TextField fx:id="productNameSearchBar" layoutX="619.0" layoutY="142.0" onKeyReleased="#searchProducts" prefHeight="25.0" prefWidth="532.0" promptText="Search..." />
+   <Button fx:id="importProductsButton" layoutX="1042.0" layoutY="86.0" mnemonicParsing="false" onAction="#importProducts" prefHeight="46.0" prefWidth="109.0" text="Import products" />
+</Pane>

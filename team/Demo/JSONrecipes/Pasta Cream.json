@@ -1,0 +1,13 @@
+{
+  "name": "Pasta Cream",
+  "peopleAmount": 4,
+  "dishType": "Lunch",
+  "description": "Make pasta, put Cream in it with oil and Cheese",
+  "dietInfos": "",
+  "products": {
+    "Pasta": 600,
+    "Cream": 400,
+    "Olive Oil": 4,
+    "Cheese": 40
+  }
+}

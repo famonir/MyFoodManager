@@ -1,0 +1,12 @@
+{
+  "name": "Maki Sushi",
+  "peopleAmount": 4,
+  "dishType": "Lunch",
+  "description": "go on internet",
+  "dietInfos": "",
+  "products": {
+    "Salmon": 200,
+    "Rice": 200,
+    "Alga": 50
+  }
+}

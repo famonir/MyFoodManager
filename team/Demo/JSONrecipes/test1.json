@@ -1,0 +1,12 @@
+{
+  "name": "importee",
+  "peopleAmount": 8,
+  "dishType": "beer",
+  "description": "default desc",
+  "dietInfos": "Alcoolos",
+  "products": {
+    "Chicken": 10,
+    "Milk": 5,
+    "Eggs": 4
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0"
+      prefWidth="1200.0" styleClass="bodybg" stylesheets="@../background/style_800_1200.css"
+      xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.ShoppingListControllers.ArchivesController">
+   <TextField fx:id="shoppingListSearchField" layoutX="364.0" layoutY="14.0" onKeyReleased="#searchShoppingList"
+              prefHeight="27.0" prefWidth="472.0"/>
+   <ListView fx:id="shoppingListsListView" layoutX="235.0" layoutY="70.0" prefHeight="716.0" prefWidth="900.0"/>
+</Pane>

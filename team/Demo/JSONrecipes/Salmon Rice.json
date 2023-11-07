@@ -1,0 +1,11 @@
+{
+  "name": "Salmon Rice",
+  "peopleAmount": 2,
+  "dishType": "Dinner",
+  "description": "Cook the rice and put raw salmon in it",
+  "dietInfos": "",
+  "products": {
+    "Salmon": 300,
+    "Rice": 150
+  }
+}

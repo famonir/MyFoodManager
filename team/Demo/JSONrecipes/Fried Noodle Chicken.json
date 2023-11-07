@@ -1,0 +1,12 @@
+{
+  "name": "Fried Noodles Chicken",
+  "peopleAmount": 4,
+  "dishType": "Dinner",
+  "description": "Cook the noodle, and put the chicken in the oven. Then put the rice in a pan with olive oil.",
+  "dietInfos": "",
+  "products": {
+    "Mozarella": 400,
+    "Noodle": 400,
+    "Chicken": 200
+  }
+}

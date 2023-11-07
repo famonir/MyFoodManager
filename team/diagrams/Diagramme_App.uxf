@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1281</x>
+      <y>924</y>
+      <w>259</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Recipe&gt;&gt;
+--
+- int peopleAmount   
+- String dishType    
+- String description;
+--
++ setPeopleCount(int newCount)
++ getPeopleCount()
+
++ setDishType(String dishType)
++ getDishType()
+
++ setDescription(String newDescription)
++ getDescription()
+
++ void increasePeopleCount()
++ void decreasePeopleCount()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1239</x>
+      <y>175</y>
+      <w>196</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;User&gt;&gt;
+--
+- int id
+- String username
+- String name
+- String password
+- String surname
+- boolean vegetarian
+--
++ getName()
++ getSurname()
++ getUsername()
++ getVegetarian()
++ getId();
++ setName(String newName)
++ setPassword(String newPass)
++ setSurname(String newSurname)
++ setUsername(String newUsername)
++ checkPassword(String passToCheck)
++ setVegetarian(boolean newVegetarian)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1064</x>
+      <y>182</y>
+      <w>84</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Controllers
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1029</x>
+      <y>84</y>
+      <w>154</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>View
+(ensemble de fichiers fxml)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1099</x>
+      <y>133</y>
+      <w>21</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1141</x>
+      <y>210</y>
+      <w>112</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1029</x>
+      <y>1099</y>
+      <w>147</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Product&gt;&gt;
+--
+- String category
+- int quantity
+- String unit
+--
++ boolean equals(Object o)
+
++ void increaseQuantity()
++ void decreaseQuantity()
++ void setQuantity()
++ void getQuantity()
+
++ void setCategory()
++ void getCategory()
+
++ void setUnit()
++ void getUnit()
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>966</y>
+      <w>266</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ShoppingList&gt;&gt;
+--
+- String date
+- boolean archived
+--
+
++ setDate(String newDate)
++ setArchived(boolean newArchived)
+
++ getDate()
++ getArchived()
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>959</x>
+      <y>504</y>
+      <w>273</w>
+      <h>238</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ProductsContainer&gt;&gt;
+--
+- ArrayList&lt;Product&gt; products 
+- int userID
+--
++ boolean checkVegetarian()
++ boolean checkVegan()
+
++ getUserID()
+
++ addProduct(Product)
++ removeProduct(Product)
++ getProductQuantity(String name)
+
++ getSize()
++ getProductIndex(String name)
+
++ getAllNotAddedProducts()
++ List&lt;Product&gt; searchFindsProducts(String searchText)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1085</x>
+      <y>735</y>
+      <w>21</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1099</x>
+      <y>805</y>
+      <w>315</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;430.0;10.0;430.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>805</y>
+      <w>434</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;230.0;10.0;10.0;600.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>707</x>
+      <y>1092</y>
+      <w>336</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;460.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1169</x>
+      <y>1106</y>
+      <w>266</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>360.0;10.0;360.0;60.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>294</y>
+      <w>210</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Dao&gt;&gt;
+--
++ static String url = "jdbc:sqlite:AppDB.db"
++ Connection connection
+--
++ ResultSet realizeExecuteQuery(String query)
++ void realizeUpdateQuery(String query)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>147</y>
+      <w>161</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ProductDao&gt;&gt;
+--
++ List&lt;Product&gt; getAll()
++ Product get(String nameProduct)
++ void delete(Product product)
++ void update(Product product)
++ void create(Product product)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>539</x>
+      <y>140</y>
+      <w>245</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ProductListDao&gt;&gt;
+--
++ List&lt;Product&gt; getByShoppingList(int idShoppingList)
++ void create(ProductList productList)
++ void update(ProductList productList)
++ void delete(ProductList productList)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>539</x>
+      <y>455</y>
+      <w>259</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ProductTypeDao&gt;&gt;
+--
++ String getProductName(String nameProduct)
++ void create(ProductType productType)
++ void update(String productType, String oldProductType)
++ void delete(ProductType productType)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>98</x>
+      <y>147</y>
+      <w>203</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;RecipeDao&gt;&gt;
+--
++ List&lt;Recipe&gt; getAll(int id)
++ List&lt;Recipe&gt; getRecipesByUser(int userID)
++ Recipe get(String nameRecipe)
++ void create(Recipe recipe)
++ void update(Recipe recipe)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>21</x>
+      <y>287</y>
+      <w>245</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;RecipeListDao&gt;&gt;
+--
++ ArrayList&lt;Product&gt; getProducts(String nameRecipe)
++ void create(RecipeList recipeList)
++ void update(RecipeList recipeList)
++ void delete(RecipeList recipeList)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>420</y>
+      <w>280</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ShoppingListDao&gt;&gt;
+--
++ List&lt;ShoppingList&gt; getAllUserShoppingLists(int idUser)
++ ShoppingList get(String nameShoppingList)
++ ShoppingList get(int idShoppingList)
++ void create(ShoppingList shoppingList)
++ void update(ShoppingList shoppingList)
++ void delete(ShoppingList shoppingList)
++ List&lt;ShoppingList&gt; getUserArchives(int userId)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>553</y>
+      <w>266</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;UserDao&gt;&gt;
+--
++ User get(int idUser)
++ User login(String name, String surname, String password)
++ void create(User user)
++ void update(User user)
++ void delete(User user)
++ String encrypt(String password)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>210</y>
+      <w>154</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>217</y>
+      <w>21</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>287</x>
+      <y>231</y>
+      <w>84</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>259</x>
+      <y>315</y>
+      <w>91</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>392</y>
+      <w>98</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>392</y>
+      <w>21</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>392</y>
+      <w>105</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1036</x>
+      <y>280</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;NamedTable&gt;&gt;
+--
+- int id
+- String name
+--
++ getName()
++ setName(String newName)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1113</x>
+      <y>406</y>
+      <w>21</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1099</x>
+      <y>224</y>
+      <w>21</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1169</x>
+      <y>1225</y>
+      <w>609</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>850.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1750</x>
+      <y>434</y>
+      <w>28</w>
+      <h>812</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;1140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1113</x>
+      <y>434</y>
+      <w>658</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>920.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>336</y>
+      <w>511</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;710.0;10.0</additional_attributes>
+  </element>
+</diagram>

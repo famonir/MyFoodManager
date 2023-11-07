@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb2285fe-4bce-4b9f-bc1b-7270e6a99336" name="Changes" comment="fixed some warnings">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFoodManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyFoodManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/AppDB.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/AppDB.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PreLoginControllers/LoginMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PreLoginControllers/LoginMenuController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="US12" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="291Wyl4kEHC8qGVcZGC2sGjcMud" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43678162" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="MyFoodManager" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in MyFoodManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyFoodManager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProductDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyFoodManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDao" />
+      <option name="MAIN_CLASS_NAME" value="TestDao.TestProductDao" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProductsListDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyFoodManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDao" />
+      <option name="MAIN_CLASS_NAME" value="TestDao.TestProductsListDao" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStoreProductsDAO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyFoodManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDao" />
+      <option name="MAIN_CLASS_NAME" value="TestDao.TestStoreProductsDAO" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestStoreProductsDAO" />
+        <item itemvalue="JUnit.All in MyFoodManager" />
+        <item itemvalue="JUnit.TestProductsListDao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb2285fe-4bce-4b9f-bc1b-7270e6a99336" name="Changes" comment="" />
+      <created>1652281331538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652281331538</updated>
+      <workItem from="1652281340701" duration="2216000" />
+      <workItem from="1652371790278" duration="6272000" />
+      <workItem from="1652451182518" duration="5373000" />
+      <workItem from="1652608630638" duration="11720000" />
+      <workItem from="1652710637470" duration="848000" />
+      <workItem from="1653061741126" duration="5975000" />
+      <workItem from="1653231609472" duration="1465000" />
+      <workItem from="1653309500187" duration="105000" />
+      <workItem from="1654435225298" duration="439000" />
+      <workItem from="1654608957235" duration="625000" />
+      <workItem from="1654627487693" duration="3664000" />
+      <workItem from="1656596017109" duration="62000" />
+    </task>
+    <task id="LOCAL-00001" summary="prototype help section">
+      <created>1652285515546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652285515546</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working help window">
+      <created>1652377893226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652377893226</updated>
+    </task>
+    <task id="LOCAL-00003" summary="buttons on help menu working now">
+      <created>1652456089306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652456089306</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix ConnEnum">
+      <created>1652611735122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652611735122</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed bugs + finished test storeProductsDAO">
+      <created>1652621000309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652621000309</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added button help in main menu + fixed bug">
+      <created>1652711354833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652711354833</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed some warnings">
+      <created>1653064012285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653064012285</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prototype help section" />
+    <MESSAGE value="Working help window" />
+    <MESSAGE value="buttons on help menu working now" />
+    <MESSAGE value="Fix ConnEnum" />
+    <MESSAGE value="fixed bugs + finished test storeProductsDAO" />
+    <MESSAGE value="added button help in main menu + fixed bug" />
+    <MESSAGE value="fixed some warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some warnings" />
+  </component>
+</project>

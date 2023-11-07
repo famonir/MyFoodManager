@@ -1,0 +1,17 @@
+{
+  "name": "Action",
+  "products": {
+    "Alga": {
+      "price": 2.0,
+      "units": "g",
+      "brand": "ActionSushi",
+      "quantity": 100
+    },
+    "Apple": {
+      "price": 1.0,
+      "units": "pc",
+      "brand": "Pink Lady",
+      "quantity": 6
+    }
+  }
+}

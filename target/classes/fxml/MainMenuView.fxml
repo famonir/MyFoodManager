@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" styleClass="bodybg" stylesheets="@background/style_800_1200.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainMenuControllers.MainMenuController">
+   <Button layoutX="539.0" layoutY="151.0" mnemonicParsing="false" onAction="#onMyProfilePressed" prefHeight="50.0" prefWidth="122.0" text="My Profile" />
+   <Button layoutX="356.0" layoutY="256.0" mnemonicParsing="false" onAction="#onShoppingListPressed" prefHeight="50.0" prefWidth="183.0" text="Shopping Lists" />
+   <Button layoutX="539.0" layoutY="363.0" mnemonicParsing="false" onAction="#onRecipesPressed" prefHeight="50.0" prefWidth="122.0" text="Recipes" />
+   <Button layoutX="539.0" layoutY="434.0" mnemonicParsing="false" onAction="#onPlanningPressed" prefHeight="50.0" prefWidth="122.0" text="Planning" />
+   <Button fx:id="mapButton" layoutX="539.0" layoutY="582.0" mnemonicParsing="false" onAction="#onMapPressed" prefHeight="50.0" prefWidth="122.0" text="Map" />
+   <Button layoutX="661.0" layoutY="256.0" mnemonicParsing="false" onAction="#onArchivesPressed" prefHeight="50.0" prefWidth="183.0" text="Archived Shopping Lists" />
+   <Button layoutX="539.0" layoutY="676.0" mnemonicParsing="false" onAction="#onLogOutButtonPressed" prefHeight="50.0" prefWidth="122.0" text="Log out" />
+   <Button layoutX="539.0" layoutY="509.0" mnemonicParsing="false" onAction="#onStoresPressed" prefHeight="50.0" prefWidth="122.0" text="Stores" />
+   <Button layoutX="42.0" layoutY="726.0" mnemonicParsing="false" onAction="#onHelpPressed" prefHeight="50.0" prefWidth="122.0" text="Help" />
+</Pane>

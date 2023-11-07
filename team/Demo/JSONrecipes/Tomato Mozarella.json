@@ -1,0 +1,11 @@
+{
+  "name": "Tomato Mozarella",
+  "peopleAmount": 4,
+  "dishType": "Lunch",
+  "description": "Cut the tomatoand mozarella in slice, mix it up and add on it olive oil, and put it in the oven",
+  "dietInfos": "",
+  "products": {
+    "Tomato": 4,
+    "Mozzarella": 400
+  }
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="800.0" prefWidth="1200.0" styleClass="bodybg" stylesheets="@../background/style_800_1200.css"
+      xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.RecipeControllers.RecipeContentController">
+   <TextArea fx:id="instructionsTextArea" layoutX="718.0" layoutY="157.0" prefHeight="551.0" prefWidth="468.0"/>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="150.0" layoutX="291.0" layoutY="97.0"
+              stroke="BLACK" strokeType="INSIDE" width="412.0"/>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" layoutX="291.0" layoutY="46.0" stroke="BLACK"
+              strokeType="INSIDE" width="894.0">
+      <fill>
+         <LinearGradient>
+            <stops>
+               <Stop>
+                  <color>
+                     <Color opacity="0.43290042877197266"/>
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0"/>
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill>
+   </Rectangle>
+   <Button layoutX="291.0" layoutY="726.0" mnemonicParsing="false" onAction="#addIngredient"
+           prefHeight="45.0" prefWidth="158.0" text="Add Ingredient">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <ListView fx:id="ingredientsListView" layoutX="291.0" layoutY="261.0" prefHeight="446.0" prefWidth="412.0"/>
+   <Button contentDisplay="CENTER" graphicTextGap="3.0" layoutX="718.0" layoutY="726.0"
+           mnemonicParsing="false" onAction="#saveInstructions" prefHeight="45.0" prefWidth="114.0" text="Save">
+      <font>
+         <Font size="17.0"/>
+      </font>
+   </Button>
+   <CheckBox fx:id="vegetarianCheckBox" layoutX="552.0" layoutY="107.0" mnemonicParsing="false" prefHeight="31.0"
+             text="Vegetarian">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </CheckBox>
+   <CheckBox fx:id="fishCheckBox" layoutX="552.0" layoutY="142.0" mnemonicParsing="false" prefHeight="31.0"
+             prefWidth="93.0" text="Fish">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </CheckBox>
+   <TextField fx:id="dishTypeTextField" layoutX="309.0" layoutY="107.0" prefHeight="31.0" prefWidth="188.0"/>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" layoutX="718.0" layoutY="97.0" stroke="BLACK"
+              strokeType="INSIDE" width="468.0">
+      <fill>
+         <LinearGradient>
+            <stops>
+               <Stop>
+                  <color>
+                     <Color opacity="0.29004329442977905"/>
+                  </color>
+               </Stop>
+               <Stop offset="0.007662835249042145">
+                  <color>
+                     <Color opacity="0.649350643157959"/>
+                  </color>
+               </Stop>
+               <Stop offset="0.17190030414346075">
+                  <color>
+                     <Color red="0.8899999856948853" green="0.8899999856948853" blue="0.8899999856948853"
+                            opacity="0.7298701405525208"/>
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" opacity="0.9277056455612183"/>
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill>
+   </Rectangle>
+   <Label alignment="CENTER" layoutX="718.0" layoutY="99.0" prefHeight="45.0" prefWidth="468.0" text="Instructions">
+      <font>
+         <Font name="System Bold" size="25.0"/>
+      </font>
+   </Label>
+   <TextField fx:id="recipeNameTextField" alignment="CENTER" layoutX="291.0" layoutY="46.0" prefHeight="45.0"
+              prefWidth="894.0" style="-fx-background-color: transparent;">
+      <font>
+         <Font name="System Bold" size="21.0"/>
+      </font>
+   </TextField>
+   <Button layoutX="291.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0"
+           prefWidth="85.0" text="Back"/>
+   <Label fx:id="peopleCountLabel" alignment="BOTTOM_CENTER" layoutX="327.0" layoutY="182.0" prefHeight="58.0"
+          prefWidth="58.0">
+      <font>
+         <Font size="31.0"/>
+      </font>
+   </Label>
+   <ImageView fx:id="peopleIcon" fitHeight="58.0" fitWidth="58.0" layoutX="391.0" layoutY="182.0" pickOnBounds="true"
+              preserveRatio="true"/>
+   <Button fx:id="decreasePeopleButton" layoutX="468.0" layoutY="182.0" mnemonicParsing="false"
+           onAction="#decreasePeopleCount" prefHeight="58.0" prefWidth="58.0"/>
+   <Button fx:id="increasePeopleButton" layoutX="533.0" layoutY="182.0" mnemonicParsing="false"
+           onAction="#increasePeopleCount" prefHeight="58.0" prefWidth="58.0"/>
+   <Button fx:id="favouriteButton" layoutX="616.0" layoutY="182.0" mnemonicParsing="false" onAction="#changeFavourite"
+           prefHeight="58.0" prefWidth="58.0" style="-fx-background-color: transparent;"/>
+</Pane>

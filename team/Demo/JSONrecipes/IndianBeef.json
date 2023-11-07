@@ -1,0 +1,12 @@
+{
+  "name": "BeefIndouRice",
+  "peopleAmount": 8,
+  "dishType": "beer",
+  "description": "default desc",
+  "dietInfos": "Alcoolos",
+  "products": {
+    
+    "Olive Oil": 4
+
+  }
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="438.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StoreControllers.NewProductController">
+   <ComboBox fx:id="productsComboBox" layoutX="332.0" layoutY="47.0" prefHeight="25.0" prefWidth="222.0" promptText="Product" />
+   <TextField fx:id="priceTextField" layoutX="45.0" layoutY="111.0" onAction="#enterPressed" prefHeight="36.0" prefWidth="241.0" promptText="Price">
+      <font>
+         <Font size="16.0" />
+      </font></TextField>
+   <TextField fx:id="unitsTextField" layoutX="300.0" layoutY="296.0" onAction="#enterPressed" prefHeight="36.0" prefWidth="250.0" promptText="Units">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="brandTextField" layoutX="45.0" layoutY="202.0" onAction="#enterPressed" prefHeight="0.0" prefWidth="509.0" promptText="Brand">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="quantityTextField" layoutX="45.0" layoutY="296.0" onAction="#enterPressed" prefHeight="36.0" prefWidth="250.0" promptText="Quantity">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <Button layoutX="96.0" layoutY="375.0" mnemonicParsing="false" onAction="#confirm" prefHeight="27.0" prefWidth="92.0" text="Confirm">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Button layoutX="389.0" layoutY="375.0" mnemonicParsing="false" onAction="#back" prefHeight="29.0" prefWidth="92.0" text="Back">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Label fx:id="storeLabel" alignment="CENTER" layoutX="46.0" layoutY="33.0" prefHeight="25.0" prefWidth="208.0">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font></Label>
+   <Label alignment="CENTER" layoutX="138.0" layoutY="269.0" prefHeight="20.0" prefWidth="63.0" text="Quantity">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="393.0" layoutY="269.0" prefHeight="20.0" prefWidth="63.0" text="Units">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="45.0" layoutY="182.0" prefHeight="20.0" prefWidth="53.0" text="Brand">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="45.0" layoutY="91.0" prefHeight="20.0" prefWidth="71.0" text="Price in €">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="403.0" layoutY="23.0" prefHeight="20.0" prefWidth="63.0" text="Product">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+</AnchorPane>

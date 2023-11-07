@@ -1,0 +1,11 @@
+{
+  "name": "Cereal bowl",
+  "peopleAmount": 51,
+  "dishType": "Breakfast",
+  "description": "Put Cereal in the bowl",
+  "dietInfos": "",
+  "products": {
+    "Cereal": 5100,
+    "Milk": 5151
+  }
+}

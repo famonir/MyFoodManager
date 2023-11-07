@@ -1,0 +1,11 @@
+{
+  "name": "Mayo Thuna",
+  "peopleAmount": 2,
+  "dishType": "Lunch",
+  "description": "Mix the mayonnaise with the thuna",
+  "dietInfos": "",
+  "products": {
+    "Thuna": 300,
+    "Mayonnaise": 150
+  }
+}

@@ -1,0 +1,74 @@
+* {
+  /*-fx-background-color: #0c1424;*/
+}
+
+.coursesWeeks {
+  /*-fx-background-image: url("../img/app.jpg");*/
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: 200%;
+  -fx-background-position: center center;
+}
+
+.btn3 {
+  -fx-position: absolute;
+  -fx-padding: 50px;
+  -fx-border-insets: 50px;
+  -fx-background-insets: 50px;
+}
+
+.menu {
+  -fx-border-color: #0c1424;
+  -fx-border-width: 3;
+  -fx-border-style: solid;
+  -fx-padding: 0;
+}
+
+.button {
+  -fx-base: #0c1424;
+  -fx-background-color: #ffff;
+  -fx-margin: 0;
+  -fx-position: absolute;
+  -fx-bottom: 0;
+  -fx-background-insets: 0 0 0 0, 0, 0, 0;
+  -fx-cursor: pointer;
+  -fx-text-fill: #0c1424;
+  -fx-border-style: hidden hidden solid hidden;
+}
+.deletebtn {
+  -fx-text-fill: darkred;
+  -fx-background-color: transparent;
+  -fx-font-size: 25px;
+  -fx-font-weight: 900;
+  -fx-border-style: hidden;
+}
+
+.updatebtn {
+  -fx-text-fill: darkgreen;
+  -fx-background-color: transparent;
+  -fx-font-size: 25px;
+  -fx-font-weight: 900;
+  -fx-border-style: hidden;
+}
+
+.archivebtn {
+  -fx-text-fill: darkcyan;
+  -fx-background-color: transparent;
+  -fx-font-size: 25px;
+  -fx-font-weight: 900;
+  -fx-border-style: hidden;
+}
+
+.button:hover {
+  -fx-cursor: hand;
+}
+
+.search {
+  -fx-text-fill: #0c1424;
+  -fx-border-color: #0c1424;
+}
+
+.update {
+  -fx-font-family: "Font Awesome 5 Free";
+  -fx-font-size: 24px;
+  -fx-text-fill: green;
+}

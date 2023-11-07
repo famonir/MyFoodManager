@@ -1,0 +1,11 @@
+{
+  "name": "Loulou's special pasta",
+  "peopleAmount": 5,
+  "dishType": "Dinner",
+  "description": "Make the best pasta ever",
+  "dietInfos": "",
+  "products": {
+    "Pasta": 100,
+    "Sugar": 40
+  }
+}

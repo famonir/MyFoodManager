@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.web.WebView?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" styleClass="bodybg" stylesheets="@../background/style_800_1200.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MapControllers.MapController">
+   <WebView fx:id="mapView" layoutX="259.0" layoutY="86.0" prefHeight="675.0" prefWidth="913.0" />
+   <Button layoutX="995.0" layoutY="31.0" mnemonicParsing="false" onAction="#locateClosestStore" prefHeight="45.0" prefWidth="177.0" text="Locate closest store" />
+   <Button layoutX="797.0" layoutY="31.0" mnemonicParsing="false" onAction="#locateCheapestStore" prefHeight="45.0" prefWidth="177.0" text="Locate cheapest store" />
+   <ComboBox fx:id="shoppingListsComboBox" layoutX="519.0" layoutY="31.0" onAction="#getAccessToShoppingList" prefHeight="45.0" prefWidth="263.0" promptText="Shopping list" />
+</Pane>

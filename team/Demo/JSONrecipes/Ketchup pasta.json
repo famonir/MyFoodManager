@@ -1,0 +1,16 @@
+{
+  "name": "Ketchup pasta",
+  "peopleAmount": 4,
+  "dishType": "Lunch",
+  "description": "Put pasta in water, then cut truffle in thin slice, and mix it with Ketchup. When the pasta are ready, take them out and put cheese on it, wait until it melt, then add the truffle ketchup sauce",
+  "dietInfos": "",
+  "products": {
+    "Pasta": 600,
+    "Cream": 400,
+    "Olive Oil": 4,
+    "Cheese": 40,
+    "Truffle": 50,
+    "Parmigiano": 30,
+    "Ketchup": 60
+  }
+}

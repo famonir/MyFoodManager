@@ -1,0 +1,12 @@
+{
+  "name": "Doctor Oetker Chocolate Pizza",
+  "peopleAmount": 2,
+  "dishType": "Breakfast",
+  "description": "Put the pizza in the oven and wait until it smells burny",
+  "dietInfos": "",
+  "products": {
+    "Cereal": 5100,
+    "Milk": 5151,
+    "Dr Oetker Chocolate Pizza": 1
+  }
+}

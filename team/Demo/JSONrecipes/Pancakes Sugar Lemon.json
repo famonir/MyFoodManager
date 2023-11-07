@@ -1,0 +1,19 @@
+{
+  "name": "Pancakes Sugar Lemon",
+  "peopleAmount": 5,
+  "dishType": "Breakfast",
+  "description": "Take a pack of pancakes, add on it sugar and lemon",
+  "dietInfos": "",
+  "products": {
+    "Pasta": 600,
+    "Cream": 400,
+    "Olive Oil": 4,
+    "Cheese": 40,
+    "Truffle": 50,
+    "Parmigiano": 30,
+    "Ketchup": 60,
+    "Pancakes": 5,
+    "Sugar": 10,
+    "Lemon": 2
+  }
+}

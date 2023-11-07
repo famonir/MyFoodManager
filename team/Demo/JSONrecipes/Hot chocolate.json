@@ -1,0 +1,11 @@
+{
+  "name": "Hot chocolate",
+  "peopleAmount": 1,
+  "dishType": "Breakfast",
+  "description": "Put the chocolate in the milk and then in the microwave ",
+  "dietInfos": "Breakfast",
+  "products": {
+    "Chocolate": 17,
+    "Milk": 500
+  }
+}

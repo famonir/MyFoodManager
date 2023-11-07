@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.HelpMenuControllers.HelpMenuController">
+   <Text layoutX="319.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" HELP SECTION"
+         textAlignment="CENTER" wrappingWidth="262.13671875">
+      <font>
+         <Font size="32.0"/>
+      </font>
+   </Text>
+   <Button fx:id="registeringAndLoginButton" layoutX="14.0" layoutY="93.0" mnemonicParsing="false"
+           onAction="#onRegisteringAndLoginButton" prefHeight="51.0" prefWidth="202.0" text="Registering &amp; Login">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <Button fx:id="shoppingListsButton" layoutX="14.0" layoutY="173.0" mnemonicParsing="false"
+           onAction="#onShoppingListButton" prefHeight="51.0" prefWidth="202.0" text="Shopping Lists">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <Button fx:id="recipesButton" layoutX="14.0" layoutY="255.0" mnemonicParsing="false" onAction="#onRecipeButton"
+           prefHeight="51.0" prefWidth="202.0" text="Recipes">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <Button fx:id="storesButton" layoutX="14.0" layoutY="338.0" mnemonicParsing="false" onAction="#onStoreButton"
+           prefHeight="51.0" prefWidth="202.0" text="Stores">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <Button fx:id="planningButton" layoutX="14.0" layoutY="420.0" mnemonicParsing="false" onAction="#onPlanningButton"
+           prefHeight="51.0" prefWidth="202.0" text="Planning">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <Button fx:id="mapButton" layoutX="14.0" layoutY="502.0" mnemonicParsing="false" onAction="#onMapButton"
+           prefHeight="51.0" prefWidth="202.0" text="Map" AnchorPane.topAnchor="502.0">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <ScrollPane layoutX="243.0" layoutY="79.0" prefHeight="770.0" prefWidth="620.0">
+      <TextArea fx:id="textArea" editable="false" prefHeight="768.0" prefWidth="618.0"/>
+   </ScrollPane>
+</AnchorPane>

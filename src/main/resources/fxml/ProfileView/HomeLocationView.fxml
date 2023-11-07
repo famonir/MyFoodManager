@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.web.WebView?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" styleClass="bodybg" stylesheets="@../background/style_800_1200.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProfileControllers.HomeLocationController">
+   <WebView fx:id="homeView" layoutX="42.0" layoutY="33.0" prefHeight="652.0" prefWidth="1127.0" />
+   <Button layoutX="943.0" layoutY="716.0" mnemonicParsing="false" onAction="#onSavePressed" prefHeight="52.0" prefWidth="159.0" text="Save" />
+</Pane>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" styleClass="bodybg" stylesheets="@../background/style_800_1200.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WeekPlanningControllers.AutoGenerateWeekController">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffffe5" height="712.0" layoutX="223.0" layoutY="42.0" strokeType="INSIDE" width="945.0" />
+   <Label alignment="CENTER" layoutX="223.0" layoutY="42.0" prefHeight="43.0" prefWidth="135.0" text="Monday">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="355.0" layoutY="42.0" prefHeight="43.0" prefWidth="135.0" text="Tuesday">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="490.0" layoutY="42.0" prefHeight="43.0" prefWidth="135.0" text="Wednesday">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="625.0" layoutY="42.0" prefHeight="43.0" prefWidth="135.0" text="Thursday">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="758.0" layoutY="42.0" prefHeight="43.0" prefWidth="135.0" text="Friday">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="893.0" layoutY="42.0" prefHeight="43.0" prefWidth="135.0" text="Saturday">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="1028.0" layoutY="42.0" prefHeight="43.0" prefWidth="135.0" text="Sunday">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Label>
+   <Label fx:id="mondayDateLabel" alignment="CENTER" layoutX="223.0" layoutY="85.0" prefHeight="36.0" prefWidth="135.0" text="21.03.2022">
+      <font>
+         <Font name="System Italic" size="19.0" />
+      </font>
+   </Label>
+   <Label fx:id="tuesdayDateLabel" alignment="CENTER" layoutX="355.0" layoutY="85.0" prefHeight="36.0" prefWidth="135.0" text="22.03.2022">
+      <font>
+         <Font name="System Italic" size="19.0" />
+      </font>
+   </Label>
+   <Label fx:id="wednesdayDateLabel" alignment="CENTER" layoutX="490.0" layoutY="85.0" prefHeight="36.0" prefWidth="135.0" text="23.03.2022">
+      <font>
+         <Font name="System Italic" size="19.0" />
+      </font>
+   </Label>
+   <Label fx:id="thursdayDateLabel" alignment="CENTER" layoutX="628.0" layoutY="85.0" prefHeight="36.0" prefWidth="135.0" text="24.03.2022">
+      <font>
+         <Font name="System Italic" size="19.0" />
+      </font>
+   </Label>
+   <Label fx:id="fridayDateLabel" alignment="CENTER" layoutX="763.0" layoutY="85.0" prefHeight="36.0" prefWidth="135.0" text="25.03.2022">
+      <font>
+         <Font name="System Italic" size="19.0" />
+      </font>
+   </Label>
+   <Label fx:id="saturdayDateLabel" alignment="CENTER" layoutX="893.0" layoutY="85.0" prefHeight="36.0" prefWidth="135.0" text="26.03.2022">
+      <font>
+         <Font name="System Italic" size="19.0" />
+      </font>
+   </Label>
+   <Label fx:id="sundayDateLabel" alignment="CENTER" layoutX="1028.0" layoutY="85.0" prefHeight="36.0" prefWidth="135.0" text="27.03.2022">
+      <font>
+         <Font name="System Italic" size="19.0" />
+      </font>
+   </Label>
+   <ListView fx:id="mondayListView" layoutX="223.0" layoutY="124.0" prefHeight="438.0" prefWidth="135.0" />
+   <ListView fx:id="tuesdayListView" layoutX="358.0" layoutY="124.0" prefHeight="438.0" prefWidth="135.0" />
+   <ListView fx:id="wednesdayListView" layoutX="493.0" layoutY="124.0" prefHeight="438.0" prefWidth="135.0" />
+   <ListView fx:id="thursdayListView" layoutX="628.0" layoutY="124.0" prefHeight="438.0" prefWidth="135.0" />
+   <ListView fx:id="fridayListView" layoutX="763.0" layoutY="124.0" prefHeight="438.0" prefWidth="135.0" />
+   <ListView fx:id="saturdayListView" layoutX="898.0" layoutY="124.0" prefHeight="438.0" prefWidth="135.0" />
+   <ListView fx:id="sundayListView" layoutX="1033.0" layoutY="124.0" prefHeight="438.0" prefWidth="135.0" />
+   <Label layoutX="253.0" layoutY="574.0" prefHeight="43.0" prefWidth="268.0" text="How many vegetarian breakfasts?">
+      <font>
+         <Font name="System Italic" size="17.0" />
+      </font>
+   </Label>
+   <Label layoutX="253.0" layoutY="634.0" prefHeight="43.0" prefWidth="268.0" text="How many vegetarian lunches?">
+      <font>
+         <Font name="System Italic" size="17.0" />
+      </font>
+   </Label>
+   <Label layoutX="253.0" layoutY="695.0" prefHeight="43.0" prefWidth="268.0" text="How many vegetarian suppers?">
+      <font>
+         <Font name="System Italic" size="17.0" />
+      </font>
+   </Label>
+   <TextField fx:id="vegetarianBreakfastTextField" layoutX="538.0" layoutY="583.0" prefHeight="21.0" prefWidth="80.0" text="0" />
+   <TextField fx:id="vegetarianLunchTextField" layoutX="538.0" layoutY="643.0" prefHeight="21.0" prefWidth="80.0" text="0" />
+   <TextField fx:id="vegetarianSupperTextField" layoutX="538.0" layoutY="704.0" prefHeight="21.0" prefWidth="80.0" text="0" />
+   <Label layoutX="628.0" layoutY="574.0" prefHeight="43.0" prefWidth="268.0" text="How many breakfasts with fish?">
+      <font>
+         <Font name="System Italic" size="17.0" />
+      </font>
+   </Label>
+   <Label layoutX="628.0" layoutY="634.0" prefHeight="43.0" prefWidth="268.0" text="How many lunches with fish?">
+      <font>
+         <Font name="System Italic" size="17.0" />
+      </font>
+   </Label>
+   <Label layoutX="628.0" layoutY="695.0" prefHeight="43.0" prefWidth="268.0" text="How many suppers with fish?">
+      <font>
+         <Font name="System Italic" size="17.0" />
+      </font>
+   </Label>
+   <TextField fx:id="fishBreakfastTextField" layoutX="913.0" layoutY="583.0" prefHeight="21.0" prefWidth="80.0" text="0" />
+   <TextField fx:id="fishLunchTextField" layoutX="913.0" layoutY="643.0" prefHeight="21.0" prefWidth="80.0" text="0" />
+   <TextField fx:id="fishSupperTextField" layoutX="913.0" layoutY="704.0" prefHeight="21.0" prefWidth="80.0" text="0" />
+   <Button layoutX="1044.0" layoutY="704.0" mnemonicParsing="false" onAction="#generate" prefHeight="25.0" prefWidth="111.0" text="Generate" />
+   <Button layoutX="227.0" layoutY="17.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="80.0" text="Back" />
+</Pane>
